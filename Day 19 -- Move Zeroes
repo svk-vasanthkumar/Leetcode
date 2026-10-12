@@ -9,16 +9,11 @@ class Solution {
 
                 nums[p]= nums[i];
                 p++;
-
             }
-
-
-
         }
 
         for(; p< nums.length; p++){
             nums[p]=0;
         }
-        
     }
 }
