@@ -14,7 +14,7 @@ List<Boolean> result = new ArrayList<>();
                 result.add(true);
             else   result.add(false);
 
-            
+              
         }
     return result;
         
