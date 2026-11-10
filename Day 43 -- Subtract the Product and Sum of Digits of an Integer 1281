@@ -1,1 +1,23 @@
+class Solution {
+    public int subtractProductAndSum(int n) {
 
+        int prod = 1;
+        int sum =0;
+        int p=0;
+
+while ( n>0 ){
+        int digit = n % 10;
+
+        sum += digit;
+        prod *= digit;
+
+
+        n = n/10;
+
+         p = prod - sum;
+}
+
+return p;
+        
+    }
+}
