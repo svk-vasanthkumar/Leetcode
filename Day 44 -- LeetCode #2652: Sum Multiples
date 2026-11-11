@@ -1,0 +1,19 @@
+class Solution {
+    public int sumOfMultiples(int n) {
+
+        int tot = 0;
+
+
+        for(int i = 0; i < n; i++){
+
+            if(n % 3 == 0 || n % 5 == 0 || n% 7==0 ){
+                tot += n;
+            }
+           
+
+        }
+
+        return tot;
+        
+    }
+}
