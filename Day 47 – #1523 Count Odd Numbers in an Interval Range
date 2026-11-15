@@ -1,0 +1,13 @@
+class Solution {
+    public int countOdds(int low, int high) {
+
+        int range = 0;
+
+      
+            
+                range = (high + 1) / 2 - low / 2;
+            
+        
+        return range;
+    }
+}
